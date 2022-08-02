@@ -13,7 +13,7 @@ setup:
 install:
         # This should be run from inside a virtualenv
         pip install --upgrade pip &&\
-             pip install -r requirements.txt &&\
+             pip install -r requirements.txt
         wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-arm64 &&\
              chmod +x /bin/hadolint
 
