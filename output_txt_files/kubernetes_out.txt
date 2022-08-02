@@ -1,1 +1,13 @@
 <paste log output from Kubernetes-mediated prediction, here>
+(.devops) kenneth@DESKTOP-01C7LJG:~/ML-Microservices-Project-4$ ./run_kubernetes.sh
+pod/machinelearndemo created
+NAME               READY   STATUS              RESTARTS   AGE
+machinelearndemo   0/1     ContainerCreating   0          1s
+error: unable to forward port because pod is not running. Current status=Pending
+
+Error from server (AlreadyExists): pods "machinelearndemo" already exists
+NAME               READY   STATUS    RESTARTS   AGE
+machinelearndemo   1/1     Running   0          5m47s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
